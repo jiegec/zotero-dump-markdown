@@ -41,6 +41,6 @@ for props in items:
 
     # Convert html to markdown
     print()
-    print(md(props['note']))
+    print(md(props['note']).strip())
 
     print()
