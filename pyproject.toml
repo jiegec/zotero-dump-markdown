@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "zotero-dump-markdown"
+version = "0.1.0"
+description = ""
+authors = ["Jiajie Chen <c@jia.je>"]
+readme = "README.md"
+packages = [{include = "zotero_dump_markdown"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+markdownify = "^0.11.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
