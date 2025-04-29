@@ -8,7 +8,7 @@ packages = [{include = "zotero_dump_markdown"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-markdownify = "^0.11.6"
+markdownify = "^0.14.1"
 
 
 [build-system]
